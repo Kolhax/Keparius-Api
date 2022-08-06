@@ -82,4 +82,4 @@ async def read_item(request: Request):
     return {'avaible':list1}
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", debug=True, reload=True)
+    uvicorn.run("api:app", debug=True, reload=True)
